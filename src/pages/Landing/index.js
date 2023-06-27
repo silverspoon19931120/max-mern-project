@@ -12,19 +12,13 @@ export default function Landing() {
         <Row justify={"space-between"} align="middle">
           <Col xs={24} sm={24} md={24} lg={12}>
             <h1 className="leading-normal text-main-active font-extrabold text-left">
-              Smart Automation,
+              The customer support automation platform you won’t outgrow
             </h1>
-            <h1 className="leading-normal text-main-active font-extrabold text-left">
-              Builds Satisfied
-            </h1>
-            <h1 className="leading-normal text-main-active font-extrabold text-left">
-              Customer R elations
-            </h1>
+            
             <div className="capture leading-9">
-              The most effective AI chatbot on the market. Clear call-to-action,
-              fully customizable, designed to engage with your customers.
-              Boosting sales, generating new leads with interactive
-              client-focused automation. Handle does it all.
+              Revolutionize your customer support with the generative AI-powered automation platform that will cut costs,
+              maximize productivity,
+              and evolve alongside you as your business grows.
             </div>
             <button className="primary-btn p-3 mt-8">Schedule Demo</button>
           </Col>

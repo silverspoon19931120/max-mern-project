@@ -14,7 +14,7 @@ const pricingTypes = [
   { title: "Premium", content: "Contact us" },
 ];
 
-function Pricing() {
+function Solutions() {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
@@ -150,4 +150,4 @@ function Pricing() {
   );
 }
 
-export default Pricing;
+export default Solutions;

@@ -1,20 +1,20 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
-import Features from './pages/Features';
-import CaseStudy from './pages/CaseStudy';
-import Pricing from './pages/Pricing';
-import About from './pages/About';
+import Products from './pages/Product';
+import Resources from './pages/Resources';
+import Solutions from './pages/Solutions';
+import Company from './pages/Company';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/features" element={<Features />} />
-        <Route path="/casestudy" element={<CaseStudy />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/product" element={<Products />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/company" element={<Company />} />
       </Routes>
     </BrowserRouter>
   );
